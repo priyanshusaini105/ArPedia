@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KingScene.unity
     guid: 9ca73f69629d7a3459e9cf23c61eb195
+  - enabled: 1
+    path: Assets/Scenes/KnightScene.unity
+    guid: 383b52124afb2c043bbb1f7ba14efa82
+  - enabled: 1
+    path: Assets/Scenes/PawnScene.unity
+    guid: 83dc63739e855034eb7d0da1475e3081
   m_configObjects: {}
