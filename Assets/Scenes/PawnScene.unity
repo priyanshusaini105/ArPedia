@@ -740,9 +740,9 @@ RectTransform:
   m_Father: {fileID: 993706156}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -96, y: 711}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 304, y: -90}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497879645
@@ -947,47 +947,47 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Name: Pawn
 
-    
 
-    Moves: Pawns move forward one square at a time,
-    but on their initial move, they have the option to move forward two squares.
-    Pawns capture diagonally, one square forward on either of their adjacent diagonals.
+
+    Moves: Pawns move forward one square at a time, but
+    on their initial move, they have the option to move forward two squares. Pawns
+    capture diagonally, one square forward on either of their adjacent diagonals.
     However, they cannot move or capture backward.
 
-    
 
-    Promotion: When a
-    pawn reaches the opposite end of the board, it can be promoted to any other piece
+
+    Promotion: When a pawn
+    reaches the opposite end of the board, it can be promoted to any other piece
     (except for a King). The most common promotion is to a Queen, but it can also
     become a Rook, Bishop, or Knight.
 
-    
 
-    En Passant: If an opponent''s
-    pawn moves two squares forward from its starting position and lands beside your
-    pawn, you have the option to capture it "en passant" on your next move. This
-    special capture can only be done immediately after the opponent''s pawn moves.
 
-    
+    En Passant: If an opponent''s pawn moves
+    two squares forward from its starting position and lands beside your pawn, you
+    have the option to capture it "en passant" on your next move. This special capture
+    can only be done immediately after the opponent''s pawn moves.
+
+
 
     Objective:
     Pawns play a vital role in controlling the center and creating opportunities.
     The objective of the game is to checkmate the opponent''s King, and pawns contribute
     by attacking, defending, and supporting other pieces.
 
-    
 
-    Pawns are
-    unique because they cannot move backward. They are often used to build a solid
-    foundation and protect the more powerful pieces. Understanding pawn structure
-    and pawn breaks is essential for strategic play in chess.
 
-    
+    Pawns are unique
+    because they cannot move backward. They are often used to build a solid foundation
+    and protect the more powerful pieces. Understanding pawn structure and pawn breaks
+    is essential for strategic play in chess.
 
-    Although
-    individually the weakest pieces, pawns can become powerful when supported and
-    advanced towards promotion. A successful player knows how to use pawns effectively,
-    as they can determine the outcome of the game.'
+
+
+    Although individually the weakest
+    pieces, pawns can become powerful when supported and advanced towards promotion.
+    A successful player knows how to use pawns effectively, as they can determine
+    the outcome of the game.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

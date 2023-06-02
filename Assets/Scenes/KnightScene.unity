@@ -740,9 +740,9 @@ RectTransform:
   m_Father: {fileID: 993706156}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -96, y: 711}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 304, y: -90}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497879645
@@ -947,38 +947,37 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Name: Knight
 
-    
 
-    Moves: The Knight has a unique L-shaped move.
-    It moves two squares in one direction (horizontally or vertically) and then one
-    square perpendicular to that direction. It can "jump" over other pieces and is
-    the only piece in chess that can do so.
 
-    
+    Moves: The Knight has a unique L-shaped move. It moves
+    two squares in one direction (horizontally or vertically) and then one square
+    perpendicular to that direction. It can "jump" over other pieces and is the only
+    piece in chess that can do so.
 
-    Objective: The objective
-    of the game is to checkmate the opponent''s King, but the Knight plays a vital
-    role in achieving this goal. It can be a valuable piece for attacking, defending,
-    and creating tactical opportunities.
 
-    
 
-    The Knight''s unique move allows
-    it to reach squares that other pieces cannot. It can be particularly effective
-    in the center of the board, where it can access multiple squares and control
-    key positions.
+    Objective: The objective of the game is
+    to checkmate the opponent''s King, but the Knight plays a vital role in achieving
+    this goal. It can be a valuable piece for attacking, defending, and creating
+    tactical opportunities.
 
-    
 
-    The Knight is known for its ability to fork, meaning
-    it can attack two enemy pieces simultaneously. Its maneuverability and unpredictable
-    path make it a formidable piece on the chessboard.
 
-    
+    The Knight''s unique move allows it to reach squares
+    that other pieces cannot. It can be particularly effective in the center of the
+    board, where it can access multiple squares and control key positions.
 
-    Mastering the
-    Knight''s movement and strategic placement is crucial for a successful chess
-    player.'
+
+
+    The
+    Knight is known for its ability to fork, meaning it can attack two enemy pieces
+    simultaneously. Its maneuverability and unpredictable path make it a formidable
+    piece on the chessboard.
+
+
+
+    Mastering the Knight''s movement and strategic
+    placement is crucial for a successful chess player.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -219,6 +219,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1145440130}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &228965431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,9 +512,9 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &388567302
 MonoBehaviour:
@@ -810,9 +822,9 @@ RectTransform:
   m_Father: {fileID: 993706156}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -96, y: 711}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 304, y: -90}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497879645
@@ -1017,43 +1029,42 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Name: King
 
-    
 
-    The King is the most important piece in the game
-    of chess. It is also referred to as the monarch of the chessboard. Each player
-    starts the game with one King, which is placed on the first rank (or row) of
-    the chessboard.
 
-    
+    The King is the most important piece in the game of
+    chess. It is also referred to as the monarch of the chessboard. Each player starts
+    the game with one King, which is placed on the first rank (or row) of the chessboard.
 
-    Moves: The King has limited mobility and can move
-    one square in any direction: horizontally, vertically, or diagonally. It cannot
-    move to a square that is attacked by an opponent''s piece. The King is not allowed
-    to move to a square that would put it in check, meaning it would be under attack
-    on the next move.
 
-    
 
-    Special Move: The King has a special move called
-    castling. Castling involves moving the King two squares towards a rook on the
-    player''s first rank, then moving the rook to the square next to the King. Castling
-    is subject to certain conditions: neither the King nor the rook involved in castling
-    can have moved previously, the squares between the King and the rook must be
-    unoccupied, and the King cannot be in check or move through squares that are
-    under attack.
+    Moves:
+    The King has limited mobility and can move one square in any direction: horizontally,
+    vertically, or diagonally. It cannot move to a square that is attacked by an
+    opponent''s piece. The King is not allowed to move to a square that would put
+    it in check, meaning it would be under attack on the next move.
 
-    
 
-    Objective: The objective of the game is to checkmate
-    the opponent''s King, which means putting it in a position where it is under
-    attack and cannot escape capture on the next move. If a player''s King is checkmated,
-    the game is over, and that player loses.
 
-    
+    Special
+    Move: The King has a special move called castling. Castling involves moving the
+    King two squares towards a rook on the player''s first rank, then moving the
+    rook to the square next to the King. Castling is subject to certain conditions:
+    neither the King nor the rook involved in castling can have moved previously,
+    the squares between the King and the rook must be unoccupied, and the King cannot
+    be in check or move through squares that are under attack.
 
-    The King is a crucial piece
-    in chess, and protecting it while simultaneously attacking the opponent''s King
-    is a fundamental strategy of the game.'
+
+
+    Objective:
+    The objective of the game is to checkmate the opponent''s King, which means putting
+    it in a position where it is under attack and cannot escape capture on the next
+    move. If a player''s King is checkmated, the game is over, and that player loses.
+
+
+
+    The
+    King is a crucial piece in chess, and protecting it while simultaneously attacking
+    the opponent''s King is a fundamental strategy of the game.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1399,7 +1410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1145440131
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1751,8 +1762,8 @@ RectTransform:
   m_Father: {fileID: 1366019769}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.13287336}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
