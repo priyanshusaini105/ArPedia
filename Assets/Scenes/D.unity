@@ -1326,7 +1326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bear
+  m_text: Duck
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d962a5ee4863eb5489c896bb90d9d95f, type: 2}
   m_sharedMaterial: {fileID: -4638257406598840876, guid: d962a5ee4863eb5489c896bb90d9d95f, type: 2}
@@ -1461,7 +1461,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: B
+  m_text: D
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea484cfe1bc69f140a7dc15155e50acf, type: 2}
   m_sharedMaterial: {fileID: -1568986052640863587, guid: ea484cfe1bc69f140a7dc15155e50acf, type: 2}
@@ -1666,7 +1666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20d8b9ad4e96e3e43bd23b1219ccfe19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: C
+  sceneName: E
 --- !u!1 &1890790244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,7 +1716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20d8b9ad4e96e3e43bd23b1219ccfe19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: A
+  sceneName: C
 --- !u!1 &1984748585
 GameObject:
   m_ObjectHideFlags: 0
