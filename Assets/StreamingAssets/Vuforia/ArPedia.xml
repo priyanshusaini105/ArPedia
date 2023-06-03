@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="D" size="1.000000 1.421094" />
+    <ImageTarget name="C" size="1.000000 1.421094" />
+    <ImageTarget name="B" size="1.000000 1.421094" />
+    <ImageTarget name="A" size="1.000000 1.421094" />
     <ImageTarget name="pawn-2430046_640" size="1.000000 0.698438" />
-    <ImageTarget name="rookistockphoto-1347542412-612x612" size="1.000000 0.666667" />
     <ImageTarget name="knight-scaled" size="1.000000 0.666797" />
     <ImageTarget name="istockphoto-537674399-612x612" size="1.000000 1.500000" />
   </Tracking>
