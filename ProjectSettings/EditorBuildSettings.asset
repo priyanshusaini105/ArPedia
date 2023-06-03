@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/AR Book.unity
     guid: 2701a540e22ed924692cc345b3a1c864
   - enabled: 1
-    path: Assets/Scenes/ABCBook.unity
+    path: Assets/Scenes/AR Book/ABCBook.unity
     guid: 3f2656c0094c3bd48948c840fee5395d
   - enabled: 1
     path: Assets/Scenes/ABC Book/A.unity
@@ -27,15 +27,15 @@ EditorBuildSettings:
     path: Assets/Scenes/ABC Book/D.unity
     guid: a5a090d56a38d564ea5e74f51b7c0715
   - enabled: 1
-    path: Assets/Scenes/ChessArScene.unity
+    path: Assets/Scenes/AR Pedias/ChessPedia.unity
     guid: 7e2a2641e2ce1bf40be75fbf4c691497
   - enabled: 1
-    path: Assets/Scenes/KingScene.unity
+    path: Assets/Scenes/ChessPedia/KingScene.unity
     guid: 9ca73f69629d7a3459e9cf23c61eb195
   - enabled: 1
-    path: Assets/Scenes/KnightScene.unity
+    path: Assets/Scenes/ChessPedia/KnightScene.unity
     guid: 383b52124afb2c043bbb1f7ba14efa82
   - enabled: 1
-    path: Assets/Scenes/PawnScene.unity
+    path: Assets/Scenes/ChessPedia/PawnScene.unity
     guid: 83dc63739e855034eb7d0da1475e3081
   m_configObjects: {}
