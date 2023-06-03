@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/B.unity
     guid: e717510b97620e64b9c04eef258305fb
+  - enabled: 1
+    path: Assets/Scenes/AR Book.unity
+    guid: 2701a540e22ed924692cc345b3a1c864
   m_configObjects: {}
