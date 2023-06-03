@@ -11,7 +11,7 @@ This repository contains a Vuforia Unity project that serves as an encyclopedia 
 
 ## Requirements
 
-- Unity 20XX.X.X or later.
+- Unity 202x.X.X or later.
 - Vuforia SDK (included in the project).
 
 ## Installation
