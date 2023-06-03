@@ -1540,6 +1540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NavBar
       objectReference: {fileID: 0}
+    - target: {fileID: 3252123715532281976, guid: 1ad6d8cd6f02d4749a9800793c5c4965, type: 3}
+      propertyPath: sceneName
+      value: AR Pedia
+      objectReference: {fileID: 0}
     - target: {fileID: 4885234266550027032, guid: 1ad6d8cd6f02d4749a9800793c5c4965, type: 3}
       propertyPath: m_Material
       value: 
