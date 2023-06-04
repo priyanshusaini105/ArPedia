@@ -595,6 +595,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.336
       objectReference: {fileID: 0}
+    - target: {fileID: 2888211071728217575, guid: 4d6e645e9bcbda8469ee3f63999e2095, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987501925816677046, guid: 4d6e645e9bcbda8469ee3f63999e2095, type: 3}
+      propertyPath: sceneName
+      value: ChessPedia
+      objectReference: {fileID: 0}
     - target: {fileID: 7976267945382613838, guid: 4d6e645e9bcbda8469ee3f63999e2095, type: 3}
       propertyPath: m_Name
       value: BackButton
@@ -609,6 +617,47 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 855378076351938040, guid: 4d6e645e9bcbda8469ee3f63999e2095, type: 3}
   m_PrefabInstance: {fileID: 296471414}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &301298308
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/RoundedCorners/IndependentRoundedCorners
+  m_Shader: {fileID: 4800000, guid: d3beb88e61f88ca4393acdefb005fa70, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _halfSize: {r: 50, g: 54.7078, b: 0, a: 0}
+    - _r: {r: 11, g: 11, b: 0, a: 0}
+    - _rect2props: {r: 0.0000038146973, g: -5.5, b: 70.15051, a: 70.15051}
+  m_BuildTextureStacks: []
 --- !u!1001 &330277941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1862,47 +1911,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!21 &1294415689
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/RoundedCorners/IndependentRoundedCorners
-  m_Shader: {fileID: 4800000, guid: d3beb88e61f88ca4393acdefb005fa70, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _halfSize: {r: 50, g: 54.7078, b: 0, a: 0}
-    - _r: {r: 11, g: 11, b: 0, a: 0}
-    - _rect2props: {r: 0.0000038146973, g: -5.5, b: 70.15051, a: 70.15051}
-  m_BuildTextureStacks: []
 --- !u!1 &1366019768
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,7 +2226,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1435296020}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.19753404
+  m_Size: 0.19753401
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2447,7 +2455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1294415689}
+  m_Material: {fileID: 301298308}
   m_Color: {r: 0.4056604, g: 0.39991993, b: 0.39991993, a: 0.7372549}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
