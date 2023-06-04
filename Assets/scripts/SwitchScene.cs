@@ -13,22 +13,43 @@ public class SwitchScene : MonoBehaviour
     public void GoBack()
     {
         int previousSceneIndex = SceneManager.GetActiveScene().buildIndex - 1;
-        if(previousSceneIndex >= 0)
-        SceneManager.LoadScene(previousSceneIndex);
-        else
-        Application.Quit();
+        int currentSceneName = SceneManager.GetActiveScene().buildName;
+        switch(currentSceneName){
+            case "KingScene":
+            case "KnightScene":
+            case "PawnScene":
+                SceneManagement.LoadScene("ChessPedia");
+            break;
+            case "A":
+            case "B":
+            case "C":
+            case "D":
+                SceneManager.LoadScene("ABCBook");
+            break;
+            case "ChessPedia":
+                SceneManagement.LoadScene("AR Book");
+            break;
+            case "ABCBook":
+                SceneManager.LoadScene("AR Pedia");
+            break;
+            case "AR Book":
+            case: "AR Pedia":
+                SceneManager.LoadScene("Home");
+            break;
+            case "Home":
+                Application.Quit();
+                break;
+            default:
+                Application.Quit();
+        }
     } 
     void Update()
     {
-    // Make sure user is on Android platform
     if (Application.platform == RuntimePlatform.Android) {
         
-        // Check if Back was pressed this frame
         if (Input.GetKeyDown(KeyCode.Escape)) {
-            
-            // Quit the application
             GoBack();
         }
+        }
     }
-}
 }
